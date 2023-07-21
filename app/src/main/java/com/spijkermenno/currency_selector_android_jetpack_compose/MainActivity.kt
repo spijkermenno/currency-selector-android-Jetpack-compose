@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import com.spijkermenno.currency_selector_android_jetpack_compose.currencySelector.CurrencyModalSelector
+import com.spijkermenno.currencyselector.currencySelector.CurrencyModalSelector
 import com.spijkermenno.currency_selector_android_jetpack_compose.ui.theme.CurrencyselectorandroidJetpackcomposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,7 +27,9 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Box(modifier = Modifier.background(Color.White)) {
-                        CurrencyModalSelector(true) {}
+                        com.spijkermenno.currencyselector.currencySelector.CurrencyModalSelector(
+                            true
+                        ) {}
                     }
                 }
             }

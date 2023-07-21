@@ -1,4 +1,4 @@
-package com.spijkermenno.currency_selector_android_jetpack_compose.currencySelector
+package com.spijkermenno.currencyselector.currencySelector
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
