@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/spijkermenno/currency-selector-android-Jetpack-compose.svg)](https://jitpack.io/#spijkermenno/currency-selector-android-Jetpack-compose)
+
 # Currency Selector Android Jetpack Compose
 
 This is a simple currency selector component built using Jetpack Compose. It allows users to choose their preferred currency from a list of available currencies.
