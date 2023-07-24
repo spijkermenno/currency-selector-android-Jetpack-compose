@@ -1,6 +1,6 @@
 package com.spijkermenno.currencyselector.currencySelector
 
-import com.spijkermenno.currency_selector_android_jetpack_compose.R
+import com.spijkermenno.currencyselector.R
 
 data class Currency(
     val code: String,
