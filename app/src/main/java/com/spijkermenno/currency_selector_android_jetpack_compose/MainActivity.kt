@@ -13,26 +13,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import com.spijkermenno.currencyselector.currencySelector.CurrencyModalSelector
-import com.spijkermenno.currency_selector_android_jetpack_compose.ui.theme.CurrencyselectorandroidJetpackcomposeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            CurrencyselectorandroidJetpackcomposeTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Box(modifier = Modifier.background(Color.White)) {
-                        com.spijkermenno.currencyselector.currencySelector.CurrencyModalSelector(
-                            true
-                        ) {}
-                    }
-                }
-            }
+            
         }
     }
 }
