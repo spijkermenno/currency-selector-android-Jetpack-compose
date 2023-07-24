@@ -55,6 +55,3 @@ This Currency Selector component is licensed under the [MIT License](LICENSE).
 
 Feel free to use and modify it according to your project requirements. If you find any issues or improvements, contributions are welcome.
 
----
-
-Note: The provided code snippet focuses on the implementation of the Currency Selector component. If you have any additional features or usage instructions, you can include them in the README to provide a comprehensive guide for developers using the component in their projects.
